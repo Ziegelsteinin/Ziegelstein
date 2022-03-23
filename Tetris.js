@@ -32,6 +32,7 @@ window.onload = function() {
       this.context.strokeRect(283, 255, 102, 102);
       this.context.strokeStyle = "#f8f8ff";
     };
+      
   
     canvas.drawBlock = function(yNum, xNum) {
       var xCord = xNum * (this.blockSide + 2) + 5;
